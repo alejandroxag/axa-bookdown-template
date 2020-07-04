@@ -1,0 +1,10 @@
+book_filename: "My_book_template"
+language:
+  label:
+    fig: 'Figure '
+    tab: 'Table '
+    exm: 'Example '
+  ui:
+    chapter_name: 'Chapter '
+    appendix_name: 'Appendix '
+delete_merged_file: true

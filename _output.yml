@@ -1,0 +1,26 @@
+bookdown::gitbook:
+  toc_depth: 6
+  css: style.css
+  split_by: rmd
+  config:
+    toc:
+      collapse: section
+      scroll_highlight: yes
+      before: |
+        <li><a href="./">Title</a></li>
+      after: |
+        <li><a href="https://bookdown.org/" target="blank">Published with Bookdown</a></li>
+    toolbar:
+      position: fixed
+    download: yes
+    search: yes
+    fontsettings:
+      theme: white
+      famili: sans
+      size: 2
+    sharing: no
+    info: no
+  includes:
+    after_body: footer.html
+bookdown::pdf_book:
+  keep_tex: yes

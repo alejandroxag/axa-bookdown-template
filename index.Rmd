@@ -1,0 +1,40 @@
+---
+title: "Title"
+subtitle: |
+   <span style="font-style:italic; font-size: 23pt">Subtitle</span><br>
+   <span style="font-style:italic; font-size: 18pt">Subtitle (line 2)</span>
+author: |
+   <p style="margin-left: 43%"><img src="reuleaux_heptagon.svg" style="width: 35%"></p>
+   <center> <span style="font-size: 16pt; font-style: normal; color: #002126">Alejandro Álvarez</span></center>
+description: "Description. "
+site: bookdown::bookdown_site
+output: bookdown::gitbook
+documentclass: book
+bibliography: ["book.bib"]
+biblio-style: apalike
+link-citations: true
+nocite: '@*'
+---
+
+```{r setup, include=FALSE}
+
+##### R Markdown global options #####
+
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE, include = TRUE, fig.align = 'center', out.width = '100%')
+
+##### libraries #####
+
+library(tidyverse)
+library(extrafont)
+loadfonts(device = 'win') # The first time you install this package, you have to execute font_import()
+
+##### Colors #####
+
+colors_pal <- c('#004170','#098d9c','#cc003a','#b2d600','#ffcc00','#00c954','#00bf9f','#00a9bf','#6f00bf','#b02c88')
+font_color <- '#002126'
+
+##### Dummy function #####
+
+do_nothing <- function(df) { return(df) }
+
+```

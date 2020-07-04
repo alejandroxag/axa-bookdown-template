@@ -1,0 +1,19 @@
+# Introduction {-#intro}
+
+***
+
+## Section {-}
+
+[Text]
+
+### Subsection {-}
+
+[Text]
+
+## Acknowledgements {-}
+
+* GitHub Corner by [Tim Holman.](http://tholman.com)
+
+* Icons taken from [Font Awesome 4.7.0., created by Font Awesome](https://fontawesome.com/v4.7.0/icons/).
+
+* Reuleaux heptagon image was constructed using [this code](https://github.com/scipython/scipython-maths/blob/master/reuleaux/make_reuleaux_construction.py), written by [Christian Hill](https://github.com/scipython).
