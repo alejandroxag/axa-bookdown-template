@@ -1,4 +1,4 @@
-/* #TOC ul,
+#TOC ul,
 #TOC li,
 #TOC span,
 #TOC a {
@@ -7,7 +7,7 @@
   position: relative;
 }
 #TOC {
-  line-height: 1;
+  line-height: 0.75;
   border-radius: 5px 5px 0 0;
   background: #141414;
   background: linear-gradient(to bottom, #333333 0%, #141414 100%);
@@ -124,4 +124,4 @@
 }
 #TOC ul {
   font-size: 1.2rem;
-} */
+}
